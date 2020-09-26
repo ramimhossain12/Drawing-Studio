@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/home"
+        app:cnb_textColor="#fff"
+        android:title="Home"
+        app:cnb_backgroundColor="#ff785b"
+        app:cnb_iconColor = "#fff"
+        android:icon="@drawable/home">
+    </item>
+
+
+
+
+    <item
+        android:id="@+id/drawing"
+        app:cnb_textColor="#fff"
+        android:title="Drawing"
+        app:cnb_backgroundColor="#ff785b"
+        app:cnb_iconColor = "#fff"
+        android:icon="@drawable/aritst">
+    </item>
+
+
+    <item
+        android:id="@+id/about"
+        app:cnb_textColor="#fff"
+        android:title="About"
+        app:cnb_iconColor = "#fff"
+        app:cnb_backgroundColor="#ff785b"
+        android:icon="@drawable/user">
+    </item>
+
+   
+
+</menu>
