@@ -8,8 +8,14 @@
 
 
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_constainer"/>
+
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
         android:layout_width="match_parent"
+        android:id="@+id/bottom_nav"
         android:layout_height="72dp"
         android:layout_alignParentBottom="true"
         android:elevation="17dp"
