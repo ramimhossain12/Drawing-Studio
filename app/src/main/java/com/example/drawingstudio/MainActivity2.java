@@ -16,7 +16,7 @@ import android.widget.Toast;
 import java.util.UUID;
 
 public class MainActivity2 extends AppCompatActivity implements View.OnClickListener {
-    private ImageButton currPaint, drawBtn,baru,erase,save;
+    private ImageButton currPaint, drawBtn,baru,erase,save,share;
     private DrawingView drawView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         baru = (ImageButton)findViewById(R.id.new_btn);
         erase = (ImageButton)findViewById(R.id.eraser_btn);
         save = (ImageButton)findViewById(R.id.save_btn);
+        share = findViewById(R.id.share_btn);
 
         LinearLayout paintLayout = (LinearLayout)findViewById(R.id.paint_colors);
         currPaint = (ImageButton)paintLayout.getChildAt(0);
@@ -38,6 +39,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         baru.setOnClickListener(this);
         erase.setOnClickListener(this);
         save.setOnClickListener(this);
+        share.setOnClickListener(this);
 
     }
 
